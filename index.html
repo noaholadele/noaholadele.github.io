@@ -35,6 +35,11 @@
       }
       .col-md-4 {
         text-align: center;
+        order: -1;
+      }
+      .profile-section {
+        display: flex;
+        flex-direction: column;
       }
     }
   </style>
@@ -67,14 +72,7 @@
 <div class="container">
 
   <!-- === Profile Section === -->
-  <div class="row">
-    <!-- Main Content -->
-    <div class="col-md-8">
-      <img class="img-responsive" src="photo.gif" alt="Noah Ọládélé" style="width:40%; max-width:250px; height:auto; margin-bottom:20px;"><br>
-      <div style="margin-top:3%; text-align:justify;">
-        <p>My research is broadly centered around African digital media and cultural production. I work on the intersection of social media use among Africans and postcolonial identity. I am also interested in interrogating the implications of social media globalization, the individual exercise of power as a form of cultural capital and how this power is translated and reflected in the everydayness of African social media users. Some of the research questions I am interested in border on power politics, cultural identity, nationality, and how these phenomena shape the postcolonial identity.</p>
-      </div>
-    </div> 
+  <div class="row profile-section">
 
     <!-- Contact Info -->
     <div class="col-md-4">
@@ -89,6 +87,15 @@
         <dd><a href="http://www.linkedin.com/in/noah-ọládélé-834354183">LinkedIn</a></dd>
       </div>
     </div>
+
+    <!-- Main Content -->
+    <div class="col-md-8">
+      <img class="img-responsive" src="photo.gif" alt="Noah Ọládélé" style="width:40%; max-width:250px; height:auto; margin-bottom:20px;"><br>
+      <div style="margin-top:3%; text-align:justify;">
+        <p>My research is broadly centered around African digital media and cultural production. I work on the intersection of social media use among Africans and postcolonial identity. I am also interested in interrogating the implications of social media globalization, the individual exercise of power as a form of cultural capital and how this power is translated and reflected in the everydayness of African social media users. Some of the research questions I am interested in border on power politics, cultural identity, nationality, and how these phenomena shape the postcolonial identity.</p>
+      </div>
+    </div> 
+
   </div> <!-- END of Profile Row -->
 
   <!-- === Publications Section (New Row) === -->
