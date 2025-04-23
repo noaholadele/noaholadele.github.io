@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @noaholadele
+- 👀 I’m interested in african digital media
+- This is my website
