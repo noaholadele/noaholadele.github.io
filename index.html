@@ -38,32 +38,34 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
   <style>
-    .project-item {
+  .project-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .project-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .img-responsive {
+      width: 60% !important;
+      max-width: 200px !important;
+      height: auto !important;
+      display: block;
+      margin: 20px auto 20px auto !important;
+    }
+    .col-md-4 {
+      text-align: center;
+      order: -1;
+    }
+    .profile-section {
       display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    .project-item img {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      margin-right: 15px;
-    }
-    @media (max-width: 768px) {
-      .img-responsive {
-        width: 60% !important;
-        max-width: 200px !important;
-        height: auto !important;
-        display: block;
-        margin: 20px auto 20px auto !important;
-      }
-      .col-md-4 {
-        text-align: center;
-        order: -1;
-      }
-      .profile-section {
-        display: flex;
-        flex-direction: column;
+      flex-direction: column;
       }
     }
   </style>
@@ -128,25 +130,30 @@
   <div class="row" style="margin-top: 80px;">
     <div class="col-md-12">
       <h2 id="publications">Publications</h2>
-      <strong>Peer-reviewed Papers</strong><br/>
-      <a href="https://journals.sagepub.com/doi/epdf/10.1177/14614448261428633">
-          The cybernetic death machine: Surveillance, queer identities, and the co-optation of state-sponsored violence in the Nigerian digital space
 
-    <ul>
-    <strong>Book Reviews</strong><br/>
-    <ul>
-      <li class="paper" words="add, your, keywords, here">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/23743670.2025.2533829">
-          Press Freedom and the (Crooked) Path Toward Democracy: Lessons from Journalists in East Africa
-        </a>
-      </li>
-      <li class="paper" words="add, your, keywords, here">
-        <a href="https://journals.sagepub.com/doi/full/10.1177/20563051241228583">
-          Book review: Cultural netizenship: Social media, popular culture, and performance in Nigeria
-        </li>
-      </ul>
-    </div>
-  </div>
+<p><strong>Peer-reviewed Papers</strong></p>
+<ul>
+  <li class="paper">
+    <a href="https://journals.sagepub.com/doi/epdf/10.1177/14614448261428633">
+      The cybernetic death machine: Surveillance, queer identities, and the co-optation of state-sponsored violence in the Nigerian digital space
+    </a>
+  </li>
+</ul>
+
+<p><strong>Book Reviews</strong></p>
+<ul>
+  <li class="paper">
+    <a href="https://www.tandfonline.com/doi/full/10.1080/23743670.2025.2533829">
+      Press Freedom and the (Crooked) Path Toward Democracy: Lessons from Journalists in East Africa
+    </a>
+  </li>
+
+  <li class="paper">
+    <a href="https://journals.sagepub.com/doi/full/10.1177/20563051241228583">
+      Book review: Cultural netizenship: Social media, popular culture, and performance in Nigeria
+    </a>
+  </li>
+</ul>
 
   <!-- === Projects Section (New Row) === -->
   <div class="row" style="margin-top: 80px;">
